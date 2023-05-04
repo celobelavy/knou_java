@@ -2,9 +2,7 @@ import java.util.Scanner;
 public class Rectangle extends Shape {
     public Rectangle(int x, int y, int width, int height) {
         super(x, y);
-        int result;
-        result = calcArea(width, height);
-        System.out.println("Rectangle 면적은 : " + result);
+        System.out.println("Rectangle 면적은 : " + calcArea(width, height));
     }
     public int calcArea(int width, int height) {
         return width * height;
